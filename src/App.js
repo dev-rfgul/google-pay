@@ -1,9 +1,13 @@
-export default function App() {
+import React from 'react'
+import GooglePay from './GooglePay'
+
+const App = () => {
   return (
-    <h1 className=" text-3xl bg-green-600  font-bold underline">
-      Hello world!
-    </h1>
 
-
+    <>
+      <GooglePay />
+    </>
   )
 }
+
+export default App
